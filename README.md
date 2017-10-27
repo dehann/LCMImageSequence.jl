@@ -1,8 +1,8 @@
 # LCMImageSequence.jl
-Convert LCM image streams to Julia Images.jl type
 
+Convert LCM image streams to [Julia](http://www.julialang.org) ([JuliaPro](http://www.juliacomputing.com)) [Images.jl](http://github.com/JuliaImages/Images.jl/) type, or interface camera hardware using [VideoIO](http://github.com/kmsquire/VideoIO.jl) and publish image traffic.
 
-
+In the future, this package should expose the VideoIO direct API for access to the same image structure without LCM transport.
 
 # Install
 
@@ -15,4 +15,4 @@ Pkg.clone("https://github.com/dehann/LCMImageSequence.jl.git")
 # Usage
 
 This package uses a sandbox install of [LCM](https://lcm-proj.github.io/).
-Required environment variables are loaded with a "per terminal" load script `env-setup.sh`. 
+Required environment variables are loaded with a "per terminal" load script `env-setup.sh`.
