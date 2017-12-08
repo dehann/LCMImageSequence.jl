@@ -2,7 +2,7 @@
 
 Convert LCM image streams to [Julia](http://www.julialang.org) ([JuliaPro](http://www.juliacomputing.com)) [Images.jl](http://github.com/JuliaImages/Images.jl/) type, or interface camera hardware using [VideoIO](http://github.com/kmsquire/VideoIO.jl) and publish image traffic.
 
-In the future, this package should expose the VideoIO direct API for access to the same image structure without LCM transport.
+TODO: This package should expose the VideoIO direct API for access to the same image structure without LCM transport.
 
 # Install
 
